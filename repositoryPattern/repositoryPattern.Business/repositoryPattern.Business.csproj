@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+      <ProjectReference Include="..\repositorypattern.entities\repositorypattern.entities.csproj" />
+      <ProjectReference Include="..\repositorypattern.repository\repositorypattern.repository.csproj" />
+  </ItemGroup>
+</Project>

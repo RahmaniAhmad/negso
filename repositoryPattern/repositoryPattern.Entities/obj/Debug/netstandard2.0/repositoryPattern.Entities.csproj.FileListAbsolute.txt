@@ -1,0 +1,9 @@
+D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.csprojAssemblyReference.cache
+D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.csproj.CoreCompileInputs.cache
+D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.AssemblyInfoInputs.cache
+D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.AssemblyInfo.cs
+D:\negso\repositoryPattern\repositoryPattern.Entities\bin\Debug\netstandard2.0\repositoryPattern.Entities.deps.json
+D:\negso\repositoryPattern\repositoryPattern.Entities\bin\Debug\netstandard2.0\repositoryPattern.Entities.dll
+D:\negso\repositoryPattern\repositoryPattern.Entities\bin\Debug\netstandard2.0\repositoryPattern.Entities.pdb
+D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.dll
+D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.pdb

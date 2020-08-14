@@ -1,0 +1,25 @@
+using Microsoft.EntityFrameworkCore;
+using repositoryPattern.Data.Configurations;
+using repositoryPattern.Entities;
+
+namespace repositoryPattern.Data
+{
+    public class ApplicationContext : DbContext
+    {
+        protected override void OnConfiguring(
+            DbContextOptionsBuilder optionsBuilder
+        )
+        {
+            optionsBuilder
+                .UseSqlServer(@"Server=.\;Database=SchoolDb;Trusted_Connection=True;MultipleActiveResultSets=true");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new StudentConfig());
+        }
+
+        public DbSet<Student> Students { get; set; }
+
+    }
+}

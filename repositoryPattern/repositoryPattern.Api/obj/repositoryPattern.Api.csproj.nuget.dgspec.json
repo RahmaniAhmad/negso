@@ -1,0 +1,324 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\repositoryPattern.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\repositoryPattern.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\repositoryPattern.Api.csproj",
+        "projectName": "repositoryPattern.Api",
+        "projectPath": "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\repositoryPattern.Api.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj"
+              },
+              "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj"
+              },
+              "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
+              },
+              "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj",
+        "projectName": "repositorypattern.Business",
+        "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\negso\\repositoryPattern\\repositorypattern.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
+              },
+              "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj",
+        "projectName": "repositorypattern.data",
+        "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\negso\\repositoryPattern\\repositorypattern.data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj",
+        "projectName": "repositorypattern.entities",
+        "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj",
+        "projectName": "repositorypattern.repository",
+        "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "D:\\negso\\repositoryPattern\\repositorypattern.repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj"
+              },
+              "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

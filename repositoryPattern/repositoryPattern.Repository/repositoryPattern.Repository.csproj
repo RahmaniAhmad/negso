@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+      <ProjectReference Include="..\repositorypattern.entities\repositorypattern.entities.csproj" />
+      <ProjectReference Include="..\repositorypattern.data\repositorypattern.data.csproj" />
+
+          <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+       <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+  </ItemGroup>
+</Project>

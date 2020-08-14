@@ -1,0 +1,16 @@
+D:\negso\repositoryPattern\repositorypattern.business\obj\Debug\netstandard2.0\repositorypattern.business.csprojAssemblyReference.cache
+D:\negso\repositoryPattern\repositorypattern.business\obj\Debug\netstandard2.0\repositorypattern.business.csproj.CoreCompileInputs.cache
+D:\negso\repositoryPattern\repositorypattern.business\obj\Debug\netstandard2.0\repositorypattern.business.AssemblyInfoInputs.cache
+D:\negso\repositoryPattern\repositorypattern.business\obj\Debug\netstandard2.0\repositorypattern.business.AssemblyInfo.cs
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositorypattern.business.deps.json
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositorypattern.business.dll
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositorypattern.business.pdb
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositorypattern.data.dll
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositoryPattern.Entities.dll
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositorypattern.repository.dll
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositoryPattern.Entities.pdb
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositorypattern.repository.pdb
+D:\negso\repositoryPattern\repositorypattern.business\bin\Debug\netstandard2.0\repositorypattern.data.pdb
+D:\negso\repositoryPattern\repositorypattern.business\obj\Debug\netstandard2.0\repositorypattern.business.csproj.CopyComplete
+D:\negso\repositoryPattern\repositorypattern.business\obj\Debug\netstandard2.0\repositorypattern.business.dll
+D:\negso\repositoryPattern\repositorypattern.business\obj\Debug\netstandard2.0\repositorypattern.business.pdb

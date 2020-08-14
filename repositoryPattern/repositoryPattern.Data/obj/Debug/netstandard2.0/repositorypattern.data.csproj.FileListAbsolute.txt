@@ -1,0 +1,12 @@
+D:\negso\repositoryPattern\repositorypattern.data\obj\Debug\netstandard2.0\repositorypattern.data.csprojAssemblyReference.cache
+D:\negso\repositoryPattern\repositorypattern.data\obj\Debug\netstandard2.0\repositorypattern.data.csproj.CoreCompileInputs.cache
+D:\negso\repositoryPattern\repositorypattern.data\obj\Debug\netstandard2.0\repositorypattern.data.AssemblyInfoInputs.cache
+D:\negso\repositoryPattern\repositorypattern.data\obj\Debug\netstandard2.0\repositorypattern.data.AssemblyInfo.cs
+D:\negso\repositoryPattern\repositorypattern.data\bin\Debug\netstandard2.0\repositorypattern.data.deps.json
+D:\negso\repositoryPattern\repositorypattern.data\bin\Debug\netstandard2.0\repositorypattern.data.dll
+D:\negso\repositoryPattern\repositorypattern.data\bin\Debug\netstandard2.0\repositorypattern.data.pdb
+D:\negso\repositoryPattern\repositorypattern.data\bin\Debug\netstandard2.0\repositoryPattern.Entities.dll
+D:\negso\repositoryPattern\repositorypattern.data\bin\Debug\netstandard2.0\repositoryPattern.Entities.pdb
+D:\negso\repositoryPattern\repositorypattern.data\obj\Debug\netstandard2.0\repositorypattern.data.csproj.CopyComplete
+D:\negso\repositoryPattern\repositorypattern.data\obj\Debug\netstandard2.0\repositorypattern.data.dll
+D:\negso\repositoryPattern\repositorypattern.data\obj\Debug\netstandard2.0\repositorypattern.data.pdb
