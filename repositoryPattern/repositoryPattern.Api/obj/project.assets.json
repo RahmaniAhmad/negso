@@ -5731,40 +5731,46 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmad\\.nuget\\packages\\": {}
+    "C:\\Users\\Rahmani\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\repositoryPattern.Api.csproj",
+      "projectUniqueName": "G:\\negso\\repositorypattern\\repositorypattern.api\\repositoryPattern.Api.csproj",
       "projectName": "repositoryPattern.Api",
-      "projectPath": "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\repositoryPattern.Api.csproj",
-      "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-      "outputPath": "D:\\negso\\repositoryPattern\\repositoryPattern.Api\\obj\\",
+      "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.api\\repositoryPattern.Api.csproj",
+      "packagesPath": "C:\\Users\\Rahmani\\.nuget\\packages\\",
+      "outputPath": "G:\\negso\\repositorypattern\\repositorypattern.api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Rahmani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj": {
-              "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj"
+            "G:\\negso\\repositorypattern\\repositorypattern.Business\\repositorypattern.Business.csproj": {
+              "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.Business\\repositorypattern.Business.csproj"
             },
-            "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj": {
-              "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj"
+            "G:\\negso\\repositorypattern\\repositorypattern.data\\repositorypattern.data.csproj": {
+              "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.data\\repositorypattern.data.csproj"
             },
-            "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
-              "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
+            "G:\\negso\\repositorypattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+              "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
             },
-            "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj": {
-              "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.repository\\repositorypattern.repository.csproj"
+            "G:\\negso\\repositorypattern\\repositorypattern.repository\\repositorypattern.repository.csproj": {
+              "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.repository\\repositorypattern.repository.csproj"
             }
           }
         }
@@ -5795,7 +5801,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

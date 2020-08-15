@@ -19,10 +19,52 @@ namespace repositoryPattern.Api.Controllers
         {
             _studentService = studentService;
         }
+
         [HttpGet]
         public IEnumerable<Student> Get()
         {
             return _studentService.GetAll();
+        }
+
+        [HttpGet("test")]
+        public IEnumerable<Student> GetTest()
+        {
+            return new List<Student>()
+            { new Student() { FirstName = "1", LastName = "2" } };
+            //return  _studentService.GetAllFromStudentRepository();
+        }
+
+        [HttpPost("create")]
+        public virtual IActionResult Create([FromBody] Student student)
+        {
+            var result = _studentService.Add(student);
+            if (!result)
+            {
+                return BadRequest("Can't create the requested record.");
+            }
+            return CreatedAtAction(nameof(Get), new { student.Id }, student);
+        }
+
+        [HttpDelete("{id}")]
+        public virtual ActionResult Delete(int id)
+        {
+            var result = _studentService.Delete(id);
+            if (result)
+            {
+                return Ok();
+            }
+            return NotFound();
+        }
+
+        [HttpPut("{id}")]
+        public virtual ActionResult Update(int id, [FromBody] Student data)
+        {
+            var updated = _studentService.Update(id, data);
+            if (updated)
+            {
+                return Ok(data);
+            }
+            return NotFound();
         }
     }
 }

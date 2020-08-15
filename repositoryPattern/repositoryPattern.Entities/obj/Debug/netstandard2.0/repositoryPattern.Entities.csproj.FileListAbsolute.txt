@@ -7,3 +7,11 @@ D:\negso\repositoryPattern\repositoryPattern.Entities\bin\Debug\netstandard2.0\r
 D:\negso\repositoryPattern\repositoryPattern.Entities\bin\Debug\netstandard2.0\repositoryPattern.Entities.pdb
 D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.dll
 D:\negso\repositoryPattern\repositoryPattern.Entities\obj\Debug\netstandard2.0\repositoryPattern.Entities.pdb
+G:\negso\repositorypattern\repositorypattern.entities\bin\Debug\netstandard2.0\repositorypattern.entities.deps.json
+G:\negso\repositorypattern\repositorypattern.entities\bin\Debug\netstandard2.0\repositorypattern.entities.dll
+G:\negso\repositorypattern\repositorypattern.entities\bin\Debug\netstandard2.0\repositorypattern.entities.pdb
+G:\negso\repositorypattern\repositorypattern.entities\obj\Debug\netstandard2.0\repositorypattern.entities.csprojAssemblyReference.cache
+G:\negso\repositorypattern\repositorypattern.entities\obj\Debug\netstandard2.0\repositorypattern.entities.AssemblyInfoInputs.cache
+G:\negso\repositorypattern\repositorypattern.entities\obj\Debug\netstandard2.0\repositorypattern.entities.AssemblyInfo.cs
+G:\negso\repositorypattern\repositorypattern.entities\obj\Debug\netstandard2.0\repositorypattern.entities.dll
+G:\negso\repositorypattern\repositorypattern.entities\obj\Debug\netstandard2.0\repositorypattern.entities.pdb

@@ -1,22 +1,26 @@
-using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using repositoryPattern.Data;
+using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 using repositoryPattern.Entities;
+using repositoryPattern.Data;
 
 namespace repositoryPattern.Repository
 {
-    public class StudentRepository : IStudentRepository
+    public class StudentRepository : BaseRepository<Student>, IStudentRepository
     {
-        private readonly ApplicationContext _context;
+        private readonly ApplicationContext _dbContext;
 
-        public StudentRepository(ApplicationContext context)
+        public StudentRepository(ApplicationContext dbContext):base(dbContext)
         {
-            _context = context;
+            _dbContext = dbContext;
         }
-        public IEnumerable<Student> GetAllStudents()
+
+        public IEnumerable<Student> GetAllStudent()
         {
-            return _context.Students.ToList();
+           return _dbContext.Students.ToList();
         }
     }
 }

@@ -3,8 +3,8 @@ using repositoryPattern.Entities;
 
 namespace repositoryPattern.Repository
 {
-    public interface IStudentRepository
+    public interface IStudentRepository : IBaseRepository<Student>
     {
-        IEnumerable<Student> GetAllStudents();
+        IEnumerable<Student> GetAllStudent();
     }
 }

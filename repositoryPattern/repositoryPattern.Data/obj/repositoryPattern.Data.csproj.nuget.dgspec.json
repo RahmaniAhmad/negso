@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj": {}
+    "G:\\negso\\repositorypattern\\repositorypattern.data\\repositorypattern.data.csproj": {}
   },
   "projects": {
-    "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj": {
+    "G:\\negso\\repositorypattern\\repositorypattern.data\\repositorypattern.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj",
+        "projectUniqueName": "G:\\negso\\repositorypattern\\repositorypattern.data\\repositorypattern.data.csproj",
         "projectName": "repositorypattern.data",
-        "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.data\\repositorypattern.data.csproj",
-        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "D:\\negso\\repositoryPattern\\repositorypattern.data\\obj\\",
+        "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.data\\repositorypattern.data.csproj",
+        "packagesPath": "C:\\Users\\Rahmani\\.nuget\\packages\\",
+        "outputPath": "G:\\negso\\repositorypattern\\repositorypattern.data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rahmani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
-                "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
+              "G:\\negso\\repositorypattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+                "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.entities\\repositorypattern.entities.csproj"
               }
             }
           }
@@ -65,26 +70,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
+    "G:\\negso\\repositorypattern\\repositorypattern.entities\\repositorypattern.entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj",
+        "projectUniqueName": "G:\\negso\\repositorypattern\\repositorypattern.entities\\repositorypattern.entities.csproj",
         "projectName": "repositorypattern.entities",
-        "projectPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\repositorypattern.entities.csproj",
-        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "D:\\negso\\repositoryPattern\\repositorypattern.entities\\obj\\",
+        "projectPath": "G:\\negso\\repositorypattern\\repositorypattern.entities\\repositorypattern.entities.csproj",
+        "packagesPath": "C:\\Users\\Rahmani\\.nuget\\packages\\",
+        "outputPath": "G:\\negso\\repositorypattern\\repositorypattern.entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rahmani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,7 +132,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using repositoryPattern.Business;
 using repositoryPattern.Data;
 using repositoryPattern.Repository;
+
 namespace repositoryPattern.Api
 {
     public class Startup
@@ -27,9 +28,29 @@ namespace repositoryPattern.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services
+                .AddCors(options =>
+                {
+                    options
+                        .AddPolicy("ReactCorsPolicy",
+                        builder =>
+                            builder
+                                .AllowAnyMethod()
+                                .AllowAnyHeader()
+                                .WithOrigins("http://localhost:3000")
+                                .AllowCredentials()
+                                .Build());
+                });
+
             services.AddTransient<ApplicationContext>();
-            services.AddTransient<IStudentRepository, StudentRepository>();
+
+            // services.AddTransient<IStudentRepository, StudentRepository>();
             services.AddTransient<IStudentService, StudentService>();
+            services.AddTransient<IStudentRepository, StudentRepository>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services
+                .AddScoped(typeof (IBaseRepository<>),
+                typeof (BaseRepository<>));
             services.AddControllers();
         }
 
@@ -44,13 +65,15 @@ namespace repositoryPattern.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors("ReactCorsPolicy");
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app
+                .UseEndpoints(endpoints =>
+                {
+                    endpoints.MapControllers();
+                });
         }
     }
 }
