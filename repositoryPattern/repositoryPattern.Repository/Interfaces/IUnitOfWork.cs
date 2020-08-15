@@ -8,6 +8,8 @@ namespace repositoryPattern.Repository
 {
     public interface IUnitOfWork : IDisposable
     {
+
+        IStudentRepository StudentRepository { get; }
         void Commit();
 
         void Dispose();

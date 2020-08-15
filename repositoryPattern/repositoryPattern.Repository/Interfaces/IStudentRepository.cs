@@ -5,6 +5,5 @@ namespace repositoryPattern.Repository
 {
     public interface IStudentRepository : IBaseRepository<Student>
     {
-        IEnumerable<Student> GetAllStudent();
     }
 }

@@ -18,9 +18,5 @@ namespace repositoryPattern.Repository
             _dbContext = dbContext;
         }
 
-        public IEnumerable<Student> GetAllStudent()
-        {
-           return _dbContext.Students.ToList();
-        }
     }
 }

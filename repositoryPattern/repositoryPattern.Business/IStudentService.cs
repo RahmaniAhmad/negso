@@ -9,11 +9,9 @@ namespace repositoryPattern.Business
     public interface IStudentService
     {
         IEnumerable<Student> GetAll();
-
-        IEnumerable<Student> GetAllFromStudentRepository();
-
+        Student Find(int id);
         bool Add(Student entity);
-         bool Update(int id, Student entity);
+        bool Update(int id, Student entity);
         bool Delete(int id);
     }
 }

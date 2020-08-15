@@ -25,3 +25,17 @@ G:\negso\repositorypattern\repositorypattern.repository\obj\Debug\netstandard2.0
 G:\negso\repositorypattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.csproj.CopyComplete
 G:\negso\repositorypattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.dll
 G:\negso\repositorypattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.pdb
+D:\negso-1\repositoryPattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.csprojAssemblyReference.cache
+D:\negso-1\repositoryPattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.csproj.CoreCompileInputs.cache
+D:\negso-1\repositoryPattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.AssemblyInfoInputs.cache
+D:\negso-1\repositoryPattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.AssemblyInfo.cs
+D:\negso-1\repositoryPattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.dll
+D:\negso-1\repositoryPattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.pdb
+D:\negso-1\repositoryPattern\repositorypattern.repository\bin\Debug\netstandard2.0\repositorypattern.repository.deps.json
+D:\negso-1\repositoryPattern\repositorypattern.repository\bin\Debug\netstandard2.0\repositorypattern.repository.dll
+D:\negso-1\repositoryPattern\repositorypattern.repository\bin\Debug\netstandard2.0\repositorypattern.repository.pdb
+D:\negso-1\repositoryPattern\repositorypattern.repository\bin\Debug\netstandard2.0\repositorypattern.data.dll
+D:\negso-1\repositoryPattern\repositorypattern.repository\bin\Debug\netstandard2.0\repositoryPattern.Entities.dll
+D:\negso-1\repositoryPattern\repositorypattern.repository\bin\Debug\netstandard2.0\repositoryPattern.Entities.pdb
+D:\negso-1\repositoryPattern\repositorypattern.repository\bin\Debug\netstandard2.0\repositorypattern.data.pdb
+D:\negso-1\repositoryPattern\repositorypattern.repository\obj\Debug\netstandard2.0\repositorypattern.repository.csproj.CopyComplete

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HFQ9cGbQl+nBsGnqA5Q5YuXBCwrBJxVQ1TOnx2qbh5X4uF/fvuhDFAjTIfkhKxMCPwwYJr7TaN2GD+QUYEM/jA==",
+  "dgSpecHash": "3od2GzzLk/LvMquOF3ZsMwJIUI8EM8cRkuUi18IYQclqyVh0XUiIfKU6YrLno2yAIhnv9lhX5vuvuAnymowHOA==",
   "success": true,
-  "projectFilePath": "D:\\negso\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj",
+  "projectFilePath": "D:\\negso-1\\repositoryPattern\\repositorypattern.Business\\repositorypattern.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

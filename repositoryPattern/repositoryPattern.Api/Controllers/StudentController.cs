@@ -25,16 +25,17 @@ namespace repositoryPattern.Api.Controllers
         {
             return _studentService.GetAll();
         }
-
-        [HttpGet("test")]
-        public IEnumerable<Student> GetTest()
+        [HttpGet("{id}")]
+        public ActionResult Get(int id)
         {
-            return new List<Student>()
-            { new Student() { FirstName = "1", LastName = "2" } };
-            //return  _studentService.GetAllFromStudentRepository();
+            var data = _studentService.Find(id);
+            if (data == null)
+            {
+                return NotFound();
+            }
+            return Ok(data);
         }
-
-        [HttpPost("create")]
+        [HttpPost]
         public virtual IActionResult Create([FromBody] Student student)
         {
             var result = _studentService.Add(student);
