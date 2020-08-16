@@ -9,5 +9,8 @@
       <ProjectReference Include="..\repositorypattern.repository\repositorypattern.repository.csproj" />
       <ProjectReference Include="..\repositorypattern.data\repositorypattern.data.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+  </ItemGroup>
 
 </Project>

@@ -10,6 +10,7 @@ namespace repositoryPattern.Repository
     {
         private readonly ApplicationContext _dbContext;
         private IStudentRepository _studentRepository;
+        private IGradeRepository _gradeRepository;
         public UnitOfWork(ApplicationContext dbContext)
         {
             _dbContext = dbContext;
@@ -17,6 +18,10 @@ namespace repositoryPattern.Repository
         public IStudentRepository StudentRepository
         {
             get { return _studentRepository = _studentRepository ?? new StudentRepository(_dbContext); }
+        }
+        public IGradeRepository GradeRepository
+        {
+            get { return _gradeRepository = _gradeRepository ?? new GradeRepository(_dbContext); }
         }
         public void Commit()
         {

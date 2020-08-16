@@ -10,6 +10,7 @@ namespace repositoryPattern.Repository
     {
 
         IStudentRepository StudentRepository { get; }
+        IGradeRepository GradeRepository { get; }
         void Commit();
 
         void Dispose();

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -43,15 +44,17 @@ namespace repositoryPattern.Api
                 });
 
             services.AddTransient<ApplicationContext>();
-
-            // services.AddTransient<IStudentRepository, StudentRepository>();
             services.AddTransient<IStudentService, StudentService>();
             services.AddTransient<IStudentRepository, StudentRepository>();
+            services.AddTransient<IGradeService, GradeService>();
+            services.AddTransient<IGradeRepository, GradeRepository>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services
-                .AddScoped(typeof (IBaseRepository<>),
-                typeof (BaseRepository<>));
-            services.AddControllers();
+                .AddScoped(typeof(IBaseRepository<>),
+                typeof(BaseRepository<>));
+            services.AddControllers().AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

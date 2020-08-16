@@ -18,16 +18,12 @@ namespace repositoryPattern.Repository
             _dbContext = dbContext;
         }
 
-        private DbSet<T> _dbSet => _dbContext.Set<T>();
-
-        public IQueryable<T> Entities => _dbSet;
-
         public T Find(int id)
         {
             return _dbContext.Set<T>().Find(id);
         }
 
-        public IEnumerable<T> GetAll()
+        public virtual IEnumerable<T> GetAll()
         {
             return _dbContext.Set<T>().ToList();
         }

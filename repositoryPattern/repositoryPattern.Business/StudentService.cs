@@ -12,8 +12,6 @@ namespace repositoryPattern.Business
 {
     public class StudentService : IStudentService
     {
-        // private readonly IStudentRepository _studentRepository;
-
         private readonly IUnitOfWork _unitOfWork;
 
         public StudentService(
